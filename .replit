@@ -1,5 +1,0 @@
-compile = "mkdir -p build && cd build && cmake .. && cmake --build ."
-run = "exec build/c-log-test"
-
-[nix]
-channel = "stable-23_05"
