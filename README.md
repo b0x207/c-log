@@ -17,6 +17,24 @@ int main() {
 }
 ```
 
+Some example output from the test file (see `test/test.c`):
+```
+TRACE  trace log message
+DEBUG  debug log message
+INFO   info log message
+NOTE   note log message
+WARN   warn log message
+ERROR  error log message
+FATAL  fatal log message
+TRACE  test.c:12 trace log message
+DEBUG  test.c:13 debug log message
+INFO   test.c:14 info log message
+NOTE   test.c:15 note log message
+WARN   test.c:16 warn log message
+ERROR  test.c:17 error log message
+FATAL  test.c:18 fatal log message
+```
+
 ## Log Levels
 
 The following log levels are supported:
